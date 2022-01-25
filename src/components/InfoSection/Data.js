@@ -1,0 +1,47 @@
+export const homeSection = {
+    first: {
+        id: 'about',
+        topLine: 'Premium Bank',
+        headline: 'Unlimited Transactions with zero fees',
+        description:
+            'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any feets.',
+        buttonLabel: 'Get started',
+        img: require('../../images/undraw_coming_home_-52-ir.svg').default,
+        alt: 'coming_home',
+        dark: true,
+        primary: true,
+        lightBg: false,
+        lightText: true,
+        imgStart: false,
+    },
+    second: {
+        id: 'discover',
+        topLine: 'Unlimited Access',
+        headline: 'Login to your account at any time',
+        description:
+            'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
+        buttonLabel: 'Learn more',
+        img: require('../../images/undraw_crypto_portfolio_2jy5.svg').default,
+        alt: 'crypto_portfolio',
+        dark: false,
+        primary: false,
+        lightBg: true,
+        lightText: false,
+        imgStart: true,
+    },
+    fourth: {
+        id: 'signup',
+        topLine: 'Join out team',
+        headline: 'Creating an account is extremely easy',
+        description:
+            "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+        buttonLabel: 'Start now',
+        img: require('../../images/undraw_heavy_box_agqi.svg').default,
+        alt: 'heavy_box',
+        dark: false,
+        primary: false,
+        lightBg: true,
+        lightText: false,
+        imgStart: false,
+    },
+}
